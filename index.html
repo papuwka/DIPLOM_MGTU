@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Интерактивная карта</title>
+	<meta name="description" content="Интерактивная карта территории МГТУ им.Носова Многопрофильного колледжа">
+	<meta name="keywords" content="МГТУ">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/fonts.css">	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<div class="wrapper">
+	<body>
+		<header>
+			<div class="header__container">
+				<a href="index.html" class="header__logo_link">
+					<img class = "header__logo" src="images/images.png" alt="" class="logo">
+				</a>
+				<div class="header__menu">
+					<a href="index.html">Главная страница</a>
+					<a href="first_admin.html">Административное здание</a>
+					<a href="blank.html">Мастерские</a>
+					<a href="blank.html">Учебное здание</a>
+				</div>
+			</div>
+		</header>
+	<main>
+		<hr class="rounded">
+		<div class="container-xxl">
+			<div class="map">
+				<svg viewBox = "0 0 988 785">
+					<path data-link = "first_admin.html" data-photo = "images/logo_MGTU.png"  data-description = "Администравный корпус - в этом корпусе находятся учебные аудитории многие из которых оснащены компьютерами, а так же  санузлы, гардероб и несколько больших аудиторий в которых проходят совещания и мероприятия." data-title="Административный корпус" class="pulse admin building interactive_study" d="m 307.5729,417.19372 21.96355,16.72225 1.41432,-1.08154 50.83231,-37.43787 -1.16473,-13.31124 -21.29799,-14.97515 -0.58237,-0.33278 -1.24793,-13.06166 -84.36,-58.90225 -9.06828,5.74048 -6.73882,-4.99172 -51.66426,31.28142 -0.91515,0.49917 2.32947,13.47764 17.72059,14.30958 0.33278,0.33278 17.6374,-10.89858 71.46474,52.41302 0.41597,0.41598 -8.48592,5.3245 z" fill = "#0f6cbf"></path>
+
+					<path data-link = "blank.html" data-photo = "images/logo_MGTU.png" data-description ="Учебный корпус - девятиэтажное здание оснащённое стандартными учебными аудиториями, а так же присутствует буфет, гардероб и санузлы на всех этажах." data-title="Учебный корпус" class="study building interactive_study" d="m 104.82604,350.05514 103.49491,-60.56615 -16.55586,-61.73089 -3.91018,-11.56414 -4.40935,-3.41101 -7.32118,4.57574 -11.23136,-8.06994 -106.739528,57.90391 3.743787,11.06497 -2.662249,3.24461 0.166391,3.91018 22.129941,56.82237 4.74213,3.57739 8.069941,-4.40935 z" fill = "#0f6cbf"></path>
+
+					<path data-link = "blank.html" data-photo = "images/logo_MGTU.png" data-description ="На территории колледжа присутствует столовая с обширным меню которое меняется каждый день." data-title="Столовая" class="canteen building interactive_another" d="m 507.92041,252.84247 -31.53177,21.4722 -85.30051,-50.59202 -1.0589,-18.88377 23.06055,-14.11871 85.00637,48.06243 1.11773,2.29429 8.35357,4.52975 z" fill = "#ca3120"></path>
+
+					<path data-link = "blank.html" data-photo = "images/logo_MGTU.png" data-description ="Общежитие распологается недалеко от столовой на первом этаже находятся рабочие кабинеты. На следующих этажах - жилые комнаты." data-title="Общежитие 1" class="hostel_first building interactive_another" d="m 470.21965,385.16354 61.5645,-45.75739 0.49917,-34.60923 -39.93373,-23.79385 -63.89396,44.75905 1.83029,33.94367 38.43622,25.95693 z" fill = "#ca3120"></path>
+
+					<path data-link = "blank.html" data-photo = "images/logo_MGTU.png" data-description ="Общежитие распологается недалеко от столовой на первом этаже находятся рабочие кабинеты. На следующих этажах - жилые комнаты." data-title="Общежитие 2" class="hostel_second building interactive_another" d="m 547.92403,308.6239 10.649,-7.65397 84.36,-63.89396 1.83029,-32.94533 -24.79219,-12.3129 -97.83763,68.22012 -0.33278,34.11006 z" fill = "#ca3120"></path>
+
+					<path data-link = "blank.html" data-photo = "images/logo_MGTU.png" data-description ="Мастерские - здание оснащенное специализированными учебными аудиториями от компьютерных классов до специалиьных химических лабараторий." data-title="Мастерские" class="workshops building interactive_study" d="m 254.41113,281.50224 202.66367,-121.96426 -0.99834,-12.97846 -9.15148,-4.99172 24.12662,-14.97515 -16.63905,-8.98508 -25.29136,13.9768 -0.16639,7.48757 -13.81042,8.31953 -5.49088,-2.49586 -184.02793,105.82438 2.66224,13.31125 z" fill = "#0f6cbf"></path>
+
+					<path data-link = "blank.html" data-photo = "images/logo_MGTU.png" data-description ="Федеральный проект «Профессионалитет» стал одной из инициатив социально-экономического развития Российской Федерации до 2030 года." data-title="Профессионалитет" class="profession building interactive_study" d="m 558.07385,212.61656 25.62415,-16.97183 -0.16639,-12.97847 -112.48001,-56.07361 -24.12662,14.97515 9.15148,4.99172 0.99834,12.97846 z" fill = "#0f6cbf"></path>
+
+					<path data-link = "blank.html" data-photo = "images/logo_MGTU.png" data-description ="Спортивный зал - оборудован под различного рода спортивных мероприятий, электронным тиром и тренажерным залом." data-title="Спортивный зал" class="gym building interactive_study" d="m 974.88214,100.63573 -4.15976,17.6374 -45.42462,42.0968 -50.08355,-19.96686 4.49255,-18.96852 14.97515,-11.81373 8.31952,3.82698 32.61255,-27.620827 z" fill = "#0f6cbf"></path>
+
+					<path data-link = "#" data-photo = "images/logo_MGTU.png" data-description ="Контрольно пропускной пункт - пункт пропуска в котором находится охрана колледжа, вход на территорию колледжа осуществляется с помощью кампусных карт." data-title="КПП" class="enter building interactive_another" d="m 172.38059,453.05088 10.48261,-7.48757 6.48923,5.65728 14.97515,-10.649 -0.83196,-5.82367 -3.16142,-5.82366 -8.15313,-5.99006 -27.62083,17.63739 0.66556,6.32284 z" fill = "#ca3120"></path>
+				</svg>
+				<div class="popup__info_bg">
+					<div class="popup__info">
+						<img src=" " alt="" class="info__photo">
+						<h2 class="info__title"> </h2>
+						<p class="info__description"> </p>
+						<a href=" " class="info__button">ВНУТРЬ</a>
+					</div>
+				</div>
+				<div class="tooltip"></div>
+				<img src="images\map_void.png" alt="">
+			</div>
+			<hr class="rounded">
+			<section class="about__us">
+				<div class="container section__wrapper_style text-center">
+					<h1>Основные учебные здания.</h1>
+					<div class="container">
+						<div class="row ico-block">
+							<div class="col-4">
+								<img src="images/study_hat.png" alt="" class="img-fluid ico">
+							</div>
+							<div class="col-4">
+								<img src="images/support.png" alt="" class="img-fluid ico">
+							</div>
+							<div class="col-4 ">
+								<img src="images/admin.png" alt="" class="img-fluid ico">
+							</div>
+						</div>
+					</div>
+					<div class="container text-center pt-4">
+						<div class="row py-5">
+							<div class="col-4">
+								<h1 class="info_header">Учебный корпус</h1>
+								<p>Корпус расположен по адресу: ул.Грязнова 38. <br>В учебном корпусе чаще всего проходят занятия по общим предметам.<br> Таким как:<br> Математика, История, Русский язык, Литература и пр.</p>
+							</div>
+							<div class="col-4">
+								<h1 class="info_header">Мастерские</h1>
+								<p>Корпус расположен по адресу: ул.Грязнова 36/1.<br>В мастерских проводятся занятия по узкопрофильным предметам: Механика, Физика, Химия и пр.<br>Кабинеты специально оснащены под задачи специализированных предметов. </p>
+							</div>
+							<div class="col-4">
+								<h1 class="info_header ">Административный корпус</h1>
+								<p>Корпус расположен по адресу: ул.Грязнова 36.<br>В административном корпусе проводятся занятия приемущественно связанные с IT-специальностями.<br>Так же в корпусе распологаются кабинеты руководства колледжа.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<hr class="rounded">
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<img class="ico__footer" src="images/images.png" alt="">
+				</div>
+				<div class="col align-items-end phone">
+					<p>8 (800) 100-1934</p>
+				</div>
+				<div class="col">
+					<p>455000 Россия, г. Магнитогорск, пр. Ленина, 38</p>
+				</div>
+				<div class="col">
+					<p>mgtu@magtu.ru</p>
+				</div>
+			</div>
+			<div class="row">
+				<p>© 2023 Магнитогорский государственный технический университет им. Г.И. Носова</p>
+			</div>
+			<div class="row">
+				<p>Лицензия: серия 90Л01 №0009323 рег. №2277 от 19 июля 2016 г. Свидетельство о гос. аккредитации: серия 90А01 №3565 от 7.05.2021 г., срок действия до 7.05.27 г.</p>
+			</div>
+		</div>
+	</footer>
+</div>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
